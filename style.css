@@ -824,3 +824,13 @@ footer {
 .contact-item a:hover span {
     transform: translateX(3px);
 }
+@media (max-width: 768px) {
+  .hero-text {
+    order: 2;
+  }
+
+  .hero-image {
+    order: 1;
+    margin-bottom: 1.5rem;
+  }
+}
